@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cerita Saya | Website Nella</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .carousel-container {
+      overflow: hidden;
+      width: 100%;
+      max-width: 700px;
+      margin: 20px auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .carousel {
+      display: flex;
+      animation: slide 25s infinite linear;
+      gap: 10px;
+    }
+
+    .carousel img {
+      width: 100%;
+      flex-shrink: 0;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0% {transform: translateX(0);}
+      20% {transform: translateX(-100%);}
+      40% {transform: translateX(-200%);}
+      60% {transform: translateX(-300%);}
+      80% {transform: translateX(-400%);}
+      100% {transform: translateX(-500%);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cerita Saya</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="cerita.html">Cerita</a></li>
+      <li><a href="galeri.html">Galeri</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Cerita Saya</h2>
+      <p>Aku lahir dan besar di kota kecil yang penuh kenangan. Dari kecil suka menggambar, menulis hingga akhirnya terjun ke dunia kreatif dan wirausaha. Kini, aku juga menjalankan usaha kecil dari rumah yang fokus pada aksesoris.</p>
+      <p>Bagiku, hidup itu bukan soal seberapa banyak kita punya, tapi seberapa banyak kita bisa membagikan kebahagiaan dari apa yang kita punya.</p>
+
+      <h3>Lebaran di Rumah</h3>
+      <p>Lebaran selalu jadi momen paling aku tunggu. Bukan hanya karena makanannya yang lezat, tapi karena suasananya yang penuh cinta. Di rumah, kami selalu mulai pagi dengan salat Ied bersama, lalu saling bermaafan dengan tangis haru dan senyuman lega. Setelah itu, kami menikmati hidangan khas buatan ibu: sate padang,lontong sayur, ketupat, rendang daging, dan kue-kue favorit yang selalu bikin rindu.</p>
+
+      <p>Anak-anak berlarian sambil tertawa, para orang tua berbincang hangat, dan suasana rumah jadi lebih hidup dari biasanya. Lebaran di rumah bukan hanya soal baju baru atau amplop THR, tapi tentang kehangatan, kebersamaan, dan rasa syukur yang tumbuh diam-diam di hati.</p>
+
+      <h3>Jalan-jalan Setelah Lebaran</h3>
+      <p>Beberapa hari setelah Lebaran, kami biasanya pergi jalan-jalan sebagai tradisi keluarga kecil kami. Tahun ini, kami memilih untuk pergi ke pantai, menikmati indahnya pantai dengan deru ombak, berfoto bersama, dan tentu saja kulineran. Di perjalanan, banyak momen kecil yang tak ternilai — seperti bercanda di mobil, berbagi camilan, dan berhenti di tempat-tempat yang tidak direncanakan hanya karena pemandangannya indah.</p>
+
+      <p>Perjalanan sederhana itu justru terasa paling berkesan. Karena ternyata, saat kita bersama orang yang kita cintai, tempat bukan lagi hal utama — tapi kebersamaan itulah yang membuat setiap langkah jadi berharga.</p>
+
+      <!-- Carousel Foto Lebaran -->
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="berkunjung.jpeg" alt="Suasana Lebaran di rumah" />
+          <img src="gambar3.jpeg" alt="Berkunjung kerumah saudara" />
+          <img src="gambar1.jpeg" alt="Foto keluarga setelah salat Ied" />
+          <img src="berhenti.jpeg" alt="Momen berhenti yang tidak direncanakan" />
+          <img src="gambar4.jpeg" alt="Momen hangat saat perjalanan" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Website Nella. Terima kasih telah berkunjung 💖 | <a href="#">Kembali ke atas</a></p>
+  </footer>
+</body>
+</html>
